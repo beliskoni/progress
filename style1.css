@@ -1,0 +1,212 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    background-image: url(files/istockphoto-1169630303-170667a.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+header{
+    display: flex;
+    /* background: rgba(222, 184, 135, 0.175); */
+    color: #fff;
+}
+nav{
+    width: 85%;
+}
+nav ul{
+    display: flex;
+    float: right;
+    list-style: none;
+}
+nav ul li{
+    margin-left: 3rem;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+#icon{
+    padding-left: 50px;
+}
+.bg-image{
+    position: relative;
+}
+.img{
+    height: 100vh;
+    width: 100vw;
+    object-fit: cover;
+}
+.text{
+    display: flex;
+    height: 25vh;
+    /* position: relative; */
+}
+.text1{
+    font-size: 2rem;
+    font-weight: 400;
+    color: #fff;
+    margin: 30px;
+}
+.text2{
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: 200;
+    margin: auto 45rem;
+    background-color: rgba(85, 108, 151, 0.404);
+    padding: 20px;
+}
+.box{
+    display: flex;
+    position: relative;
+}
+.box1{
+    width: 15%;
+    height: 45vh;
+    background-color: transparent;
+   backdrop-filter: blur(10px);
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+    margin-bottom: 2rem;
+    margin-left: 13rem;
+  
+}
+
+.box2{
+    width: 50%;
+    height: 45vh;
+    background-color: transparent;
+   backdrop-filter: blur(10px);
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+    margin-bottom: 2rem;
+}
+.temp{
+    color: #fff;
+    font-size: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.cloudy{
+    color: #fff;
+    /* margin-top: 15px; */
+}
+.weather{
+    color: #fff;
+}
+.state{
+    color: #fff;
+    float: right;
+}
+.time{
+   color: #fff; 
+}
+.line{
+    width: 40%;
+    height: 2px;
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+}
+.report{
+    height: 3rem;
+    width: 65%;
+    color: #fff;
+    font-size: 1rem;
+    background-color: transparent;
+    backdrop-filter: blur(10px);
+    cursor: pointer;
+}
+.line {
+    position: relative;
+    width: 180px;
+    height: 1px; 
+    background-color: #fff; 
+}
+
+.line::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    height: 2px; 
+    background-color: #fff; 
+}
+.line2 {
+    position: relative;
+    width: 610px;
+    height: 1px; 
+    background-color: #fff; 
+}
+
+.line2::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    height: 2px; 
+    background-color: #fff; 
+}
+.degree{
+    font-size: 5rem;
+    color: #fff;
+}
+.tt{
+    color: #fff;
+    font-size: 13px;
+}
+.lil{
+    color: #fff;
+    margin-top: 40px;
+}
+#con{
+    margin-left: 15px;
+}
+.t1{
+    margin-left: 10px;
+}
+.t2{
+    float: right;
+    margin-right: 10px;
+}
+#wind{
+    margin-left: 15px;
+}
+.air{
+    color: #fff;
+    margin-top: 30px;
+}
+.tw{
+    margin-left: 10px;
+}
+.tw2{
+    color: green;
+    float: right;
+    margin-right: 10px;
+}
+#su{
+    margin-left: 15px;
+}
+.sun{
+    color: #fff;
+    margin-top: 40px;
+}
+.uv{
+    margin-left: 10px;
+}
+.num{
+    float: right;
+    margin-right: 10px;
+}
+.load{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ld{
+    color: #fff;
+    background-color: transparent;
+    cursor: pointer;
+}

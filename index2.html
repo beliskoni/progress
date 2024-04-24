@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style2.css">
+    <title>Weather Forecast</title>
+    <script src="https://kit.fontawesome.com/e1a67ea28e.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container">
+      <div class="container-sub"> 
+       <div class="content">
+          <nav>
+               <ul>
+                  <li><a href="Home">Home</a></li>
+                  <li><a href="News">News</a></li>
+                  <li><a href="Podcast">Podcast</a></li>
+                  <li><a href="Video">Video</a></li>
+                  <i class="fa-solid fa-list" id="icon"></i>
+               </ul>
+          </nav>
+        </div>
+        <div class="header-sec">
+            <h1 class="WT">Weather Forecast</h1>
+        </div>
+        <div class="search-bar">
+            <input type="search" name="" id="search" placeholder="Enter the Location">
+         <button class="btn1" type="submit">search</button>
+        </div>
+      </div>
+    </div>
+
+
+
+    <div class="middle-text">
+        <p>Your Current Location</p>
+    </div>
+    <div class="content2-parent">
+    <div class="content2">
+        <div class="third-div">
+            <p class="p1">Current Weather</p>
+            <p class="p2">10:00PM</p>
+            <p class="p3">Mostly cloudy.Hazy.low 23&deg;C. Winds SW at 15 to 25 km/h.</p>
+            <p class="p4">More Details</p>
+        </div>
+        <div class="cloud-content">
+            <div class="left-container">
+                <img src="https://openweathermap.org/img/wn/10@2x.png">
+                <h2 id="degree">30&deg;</h2>
+            </div>
+            <div class="weather-right-grid">
+                <ul>
+                    <li><img src="./images/humidity.png" alt="">Humidity   <span class="Humidity-span" id="humidityPercent"></span>%</li>
+                    <li><img src="./images/wind.png" alt="logo">Air Quality <span class="air-quality-span">Excellent</span></li>
+                    <li><img src="./images/uv-index.png" alt="">UV Index <span class="index-span" id="index"> </span>of 11</li>
+
+         </ul>
+             </div>
+        </div>
+    </div>
+</div>
+</div>
+
+    
+
+
+    <script src="index.js" defer="defer"></script>
+</body>
+</html>
